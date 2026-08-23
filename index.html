@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanuj A J | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">TANUJ A J</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hello, I'm <span class="accent">Tanuj</span></h2>
+    <p>Integrated MSc AI &amp; ML Student &middot; Full-Stack Development &amp; Applied AI</p>
+  </section>
+
+  <section id="about" class="section about-section">
+  <h2 class="section-title">About Me</h2>
+
+  <div class="about-container">
+    <div class="about-image">
+      <img src="assests/tanuj.jpg" alt="Tanuj Profile">
+    </div>
+
+    <div class="about-text">
+      <p>
+        I'm Tanuj A J, a third-year Integrated MSc Artificial Intelligence &amp; Machine Learning student at
+        Coimbatore Institute of Technology. I work across two directions that feed into each other: building
+        full-stack software &mdash; React and Node.js/Express applications with real APIs and thoughtful
+        architecture &mdash; and applying AI/ML concepts, including multi-agent systems, to solve real-world,
+        data-driven problems. Whether I'm designing a REST API or orchestrating a team of AI agents, I care
+        about building things that are efficient, scalable, and genuinely useful.
+      </p>
+    </div>
+  </div>
+</section>
+
+  <section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Languages</h3>
+        <div class="skills-container">
+          <div class="skill-box">JavaScript</div>
+          <div class="skill-box">TypeScript</div>
+          <div class="skill-box">Python</div>
+          <div class="skill-box">Java</div>
+          <div class="skill-box">C</div>
+          <div class="skill-box">SQL</div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Frontend</h3>
+        <div class="skills-container">
+          <div class="skill-box">React</div>
+          <div class="skill-box">Vite</div>
+          <div class="skill-box">Tailwind CSS</div>
+          <div class="skill-box">MapLibre GL JS</div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Backend &amp; Databases</h3>
+        <div class="skills-container">
+          <div class="skill-box">Node.js</div>
+          <div class="skill-box">Express</div>
+          <div class="skill-box">REST APIs</div>
+          <div class="skill-box">Flask</div>
+          <div class="skill-box">MongoDB</div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>AI/ML Concepts</h3>
+        <div class="skills-container">
+          <div class="skill-box">Multi-Agent AI Systems</div>
+          <div class="skill-box">AI Agent Orchestration</div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Tools &amp; Cloud</h3>
+        <div class="skills-container">
+          <div class="skill-box">AWS</div>
+          <div class="skill-box">Twilio API</div>
+          <div class="skill-box">OSRM</div>
+          <div class="skill-box">Git</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-list">
+
+      <div class="project-card">
+        <h3>ParallelVerse</h3>
+        <p>An interactive branching-future decision simulator. Built a full CRUD REST API for universes,
+          decisions, and scenarios with a Node.js/Express backend, and a React frontend using Context API
+          and React Router for state and routing.</p>
+        <div class="tech-tags">
+          <span>React 18</span><span>TypeScript</span><span>Vite</span><span>Tailwind CSS</span>
+          <span>Node.js</span><span>Express</span><span>REST API</span>
+        </div>
+        <a class="project-link" href="https://github.com/Tanujj19/parallelverse" target="_blank">View on GitHub &rarr;</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Launchpad AI (DevSwarm)</h3>
+        <p>A multi-agent AI system built for a Bits Pilani hackathon that generates startup blueprints.
+          Orchestrates 3 specialized AI agents (frontend, backend, test) working in parallel to build a
+          full-stack task management app, with automated test verification.</p>
+        <div class="tech-tags">
+          <span>Node.js</span><span>Express</span><span>React</span><span>TypeScript</span>
+          <span>Multi-Agent AI</span>
+        </div>
+        <a class="project-link" href="https://github.com/Tanujj19/LaunchPad-AI" target="_blank">View on GitHub &rarr;</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Disaster Digital Twin</h3>
+        <p>A full-stack disaster-risk visualization platform with interactive WebGL mapping over OpenStreetMap
+          and AWS terrain-elevation tiles. Integrates live weather/flood forecasts and road-network routing
+          through a rule-based, explainable, config-driven risk-scoring engine, with Twilio SMS alerts.</p>
+        <div class="tech-tags">
+          <span>React 18</span><span>Vite</span><span>MapLibre GL JS</span><span>Node.js</span>
+          <span>Express</span><span>Twilio API</span><span>OSRM</span><span>Open-Meteo API</span><span>AWS</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Customer Churn Prediction</h3>
+        <p>A Flask web application that analyzes customer review data and predicts churn using a Python-based
+          data processing pipeline, delivered through a lightweight web interface.</p>
+        <div class="tech-tags">
+          <span>Python</span><span>Flask</span><span>HTML</span>
+        </div>
+        <a class="project-link" href="https://github.com/Tanujj19/-customer-churn-flask" target="_blank">View on GitHub &rarr;</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <h2 class="section-title">Education</h2>
+    <div class="edu-box">
+      <h3>Coimbatore Institute of Technology</h3>
+      <p>Integrated Masters in Artificial Intelligence &amp; Machine Learning | 2024 &ndash; 2029</p>
+      <p class="edu-meta">CGPA 7.52</p>
+    </div>
+    <div class="edu-box">
+      <h3>The Green Hills Public School</h3>
+      <p>Higher Secondary (CBSE)</p>
+      <p class="edu-meta">80.4%</p>
+    </div>
+  </section>
+
+  <section id="achievements" class="section">
+    <h2 class="section-title">Achievements</h2>
+    <div class="exp-box">
+      <h3>Winner &mdash; Smart India Hackathon (SIH) Internal Hackathon</h3>
+      <p class="text">October 2025</p>
+    </div>
+  </section>
+
+  <section id="certifications" class="section">
+    <h2 class="section-title">Certifications</h2>
+    <div class="cert-list">
+      <div class="cert-box">Introduction to Artificial Intelligence</div>
+      <div class="cert-box">TCS iON Career Edge &ndash; Young Professional Course</div>
+      <div class="cert-box">Certificate of Recognition, FOSS Club &ndash; Coimbatore Institute of Technology,
+        for the Hands-On Flask Workshop (Dec 29&ndash;30, 2025)</div>
+      <div class="cert-box">Host Yourself 101 Workshop, FOSS CIT &ndash; built and deployed a personal
+        portfolio website using HTML5UP and StartBootstrap</div>
+    </div>
+  </section>
+
+  <section id="activities" class="section">
+    <h2 class="section-title">Co-Curricular</h2>
+    <div class="exp-box">
+      <h3>Sports Club of CIT &mdash; Football Club</h3>
+    </div>
+  </section>
+
+ <section id="languages" class="section">
+  <h2 class="section-title">Languages</h2>
+
+  <ul class="language-list">
+    <li>English</li>
+    <li>Tamil</li>
+    <li>Hindi</li>
+  </ul>
+</section>
+
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/tanuj-a-j-230209321" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Tanujj19" target="_blank">GitHub</a>
+      <a href="mailto:ajtanuj19@gmail.com">ajtanuj19@gmail.com</a>
+      <a href="tel:+918072997638">+91 8072997638</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Tanuj A J | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
